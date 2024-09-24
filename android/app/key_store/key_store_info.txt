@@ -1,0 +1,7 @@
+
+file name = wahaj.jks
+alias = wahaj
+storepass = wahaj@key
+keypass = wahaj@key
+
+keytool -genkey -v -keystore wahaj.jks -alias wahaj -keyalg RSA -keysize 2048 -validity 5000 -storepass wahaj@key -keypass wahaj@key

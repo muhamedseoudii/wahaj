@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "337022728343",
+    "project_id": "wahaj-316a5",
+    "storage_bucket": "wahaj-316a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337022728343:android:734b310b6ace57ce8f51d2",
+        "android_client_info": {
+          "package_name": "com.wahaj.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyv2_VVJKeeVb1QEb62YPGuAzieV8Hwvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337022728343:android:67118e0148f2c3428f51d2",
+        "android_client_info": {
+          "package_name": "com.wahajtop.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyv2_VVJKeeVb1QEb62YPGuAzieV8Hwvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
