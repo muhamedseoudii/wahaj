@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:mo_wahaj_top/core/resource/app_color.dart';
 import 'package:mo_wahaj_top/core/widget/button/login_button.dart';
-
 import '../../../../core/firebase/firebase_core/firestore_method.dart';
 import '../../../../core/helper/language_helper.dart';
 import '../../../../core/resource/app_size.dart';
@@ -11,10 +10,6 @@ import '../../../../router/app_router.dart';
 import '../../../web_view/presentation/screen/web_view_screen.dart';
 import '../screen/sub_activity_details_screen.dart';
 import '../screen/sub_activity_screen.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 7/6/2024.
- */
 
 class SubActivityAdsItem extends StatefulWidget {
   const SubActivityAdsItem(

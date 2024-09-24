@@ -5,8 +5,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:mo_wahaj_top/core/firebase/firebase_core/firestore_base_model.dart';
 import 'package:mo_wahaj_top/core/firebase/firebase_core/firestore_error_handler.dart';
 
-/// Created by Eng.Eyad AlSayed on 5/15/2024.
-
 abstract class FireStoreCollectionName {
   static const String signUp = "signUp";
   static const String login = "login";

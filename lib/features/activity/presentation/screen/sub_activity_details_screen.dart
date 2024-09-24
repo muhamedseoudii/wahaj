@@ -24,8 +24,6 @@ import '../../../../core/resource/cubit_status.dart';
 import '../../../../core/widget/snack_bar/note_message.dart';
 import 'booking_screen.dart';
 
-/// Created by Eng.Eyad AlSayed on 5/28/2024.
-
 class SubActivityDetailsArgs {
   Map<String, dynamic> activityDetails;
   String subActivityArName, subActivityEnName;
@@ -697,8 +695,7 @@ class _SubActivityDetailsScreenState extends State<SubActivityDetailsScreen> {
                 ),
                 Visibility(
                   visible: AppSharedPreferences.isLogin() == true &&
-                          widget.args.activityDetails['can_book'] ??
-                      false,
+                      widget.args.activityDetails['can_book'],
                   child: Container(
                     margin:
                         EdgeInsets.symmetric(horizontal: AppWidthSize.w3point8),

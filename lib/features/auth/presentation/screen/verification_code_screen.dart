@@ -1,5 +1,4 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -143,7 +142,7 @@ class _VerificationCodeScreenState extends State<VerificationCodeScreen> {
                 listener: (context, state) {
                   if (state.status == CubitStatus.error) {
                     NoteMessage.showErrorSnackBar(
-                        context: context, text: state.model.error??"");
+                        context: context, text: state.model.error ?? "");
                   }
                   if (state.status == CubitStatus.success) {
                     Navigator.pushNamedAndRemoveUntil(

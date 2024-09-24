@@ -1,15 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:mo_wahaj_top/core/widget/snack_bar/note_message.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
 import 'package:mo_wahaj_top/router/app_router.dart';
-
 import '../../../../../core/resource/app_color.dart';
 import '../../../../../core/resource/app_size.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/26/2024.
- */
 
 class LoginWidget extends StatelessWidget {
   const LoginWidget({super.key});
@@ -31,7 +25,6 @@ class LoginWidget extends StatelessWidget {
           width: AppWidthSize.w50,
           child: ElevatedButton(
               onPressed: () {
-
                 Navigator.of(context).pushNamed(RouteName.auth);
               },
               style: ElevatedButton.styleFrom(

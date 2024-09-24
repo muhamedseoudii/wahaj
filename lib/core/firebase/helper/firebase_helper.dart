@@ -3,10 +3,6 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import '../../../firebase_options.dart';
 import '../../helper/flutter_local_notification.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 4/23/2024.
- */
-
 abstract class FirebaseHelper {
   static final List<String> publicTopics = ["Public", "all"];
 

@@ -4,12 +4,7 @@ import 'package:mo_wahaj_top/core/resource/app_color.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
-
 import '../../../../core/helper/lanucher_helper.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 6/9/2024.
- */
 
 class MapArgs {
   String subActivityName;

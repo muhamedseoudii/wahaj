@@ -1,7 +1,3 @@
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
-
 abstract class AppIcon {
   static const _basePath = "assets/icons";
   static const search = "$_basePath/search.svg";

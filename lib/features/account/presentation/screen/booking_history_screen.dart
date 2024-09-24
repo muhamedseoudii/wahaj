@@ -14,10 +14,6 @@ import '../../../../core/widget/snack_bar/note_message.dart';
 import '../../../../core/widget/text/app_text.dart';
 import '../widget/booking_history_item.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 6/9/2024.
- */
-
 class BookingHistoryScreen extends StatelessWidget {
   const BookingHistoryScreen({super.key});
 
@@ -32,7 +28,8 @@ class BookingHistoryScreen extends StatelessWidget {
       body: BlocConsumer<BookingsCubit, BookingsState>(
         listener: (context, state) {
           if (state.status == CubitStatus.error) {
-            NoteMessage.showErrorSnackBar(context: context, text: state.model.error??"");
+            NoteMessage.showErrorSnackBar(
+                context: context, text: state.model.error ?? "");
           }
         },
         builder: (context, state) {

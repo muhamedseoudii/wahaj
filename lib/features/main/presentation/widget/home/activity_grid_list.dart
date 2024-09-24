@@ -1,23 +1,14 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:mo_wahaj_top/core/helper/language_helper.dart';
-import 'package:mo_wahaj_top/core/resource/app_color.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/core/widget/button/login_button.dart';
-import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
 import 'package:mo_wahaj_top/features/main/presentation/widget/home/activity_grid_item.dart';
 import 'package:mo_wahaj_top/features/main/presentation/widget/home/most_banner_widget.dart';
 import 'package:mo_wahaj_top/router/app_router.dart';
-
 import '../../../../activity/presentation/screen/sub_activity_details_screen.dart';
 import '../../../../activity/presentation/screen/sub_activity_screen.dart';
 import '../../../../web_view/presentation/screen/web_view_screen.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
 
 class ActivityList extends StatelessWidget {
   const ActivityList({super.key, required this.data, required this.title});

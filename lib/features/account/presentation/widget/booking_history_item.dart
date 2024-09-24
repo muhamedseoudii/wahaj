@@ -6,10 +6,6 @@ import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 6/9/2024.
- */
-
 class BookingHistoryItem extends StatelessWidget {
   const BookingHistoryItem(
       {super.key,

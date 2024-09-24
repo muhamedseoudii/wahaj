@@ -1,7 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:mo_wahaj_top/core/resource/app_color.dart';
-
 import '../../../../../core/resource/app_size.dart';
 import '../../../../../core/widget/text/app_text.dart';
 

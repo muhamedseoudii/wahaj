@@ -2,15 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:mo_wahaj_top/core/resource/app_icon.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/resource/app_size.dart';
 import '../../../../core/widget/image/app_cached_image.dart';
 import '../../../../core/widget/text/app_text.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 6/11/2024.
- */
 
 class FavoriteListItem extends StatelessWidget {
   const FavoriteListItem(

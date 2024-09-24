@@ -1,9 +1,5 @@
 import '../storage/shared_pref/shared_preferences.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/30/2024.
- */
-
 abstract class LanguageHelper {
   static bool isEnglishAppLanguage() {
     return AppSharedPreferences.getAppLanguageCode() == 'en';

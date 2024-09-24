@@ -3,10 +3,6 @@ import 'package:mo_wahaj_top/core/resource/app_color.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/26/2024.
- */
-
 class ErrorText extends StatelessWidget {
   const ErrorText({super.key, required this.error});
 

@@ -1,5 +1,4 @@
 import 'package:easy_localization/easy_localization.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mo_wahaj_top/core/firebase/firebase_core/firestore_base_model.dart';
@@ -15,13 +14,7 @@ import 'package:mo_wahaj_top/features/account/cubit/about_us_cubit/about_us_cubi
 import 'package:mo_wahaj_top/features/account/presentation/widget/gradient_info.dart';
 import 'package:mo_wahaj_top/features/account/presentation/widget/primary_info.dart';
 import 'package:mo_wahaj_top/features/account/presentation/widget/secondary_info.dart';
-import 'package:responsive_sizer/responsive_sizer.dart';
-
 import '../../../../core/widget/snack_bar/note_message.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
 
 class AboutUsScreen extends StatelessWidget {
   const AboutUsScreen({super.key});

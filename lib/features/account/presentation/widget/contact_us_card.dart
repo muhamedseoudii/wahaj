@@ -2,13 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:mo_wahaj_top/core/resource/app_color.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
-import 'package:responsive_sizer/responsive_sizer.dart';
-
 import '../../../../core/widget/text/app_text.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/14/2024.
- */
 
 class ContactUsCard extends StatelessWidget {
   const ContactUsCard({super.key, required this.title, required this.icon});

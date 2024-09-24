@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mo_wahaj_top/core/firebase/firebase_core/firestore_base_model.dart';
 import 'package:mo_wahaj_top/core/firebase/firebase_core/firestore_method.dart';
 import 'package:mo_wahaj_top/core/helper/validtor_helper.dart';
-
 import '../../../../core/firebase/firebase_core/firestore_status_code.dart';
 import '../../../../core/resource/cubit_status.dart';
 
@@ -21,7 +20,7 @@ class SearchCubit extends Cubit<SearchState> {
 
     if (FireStoreStatusCode.successStatus().contains(placesModel.code)) {
       List<Map<String, dynamic>> places =
-      (placesModel.data?['places'] ?? []).cast<Map<String, dynamic>>();
+          (placesModel.data?['places'] ?? []).cast<Map<String, dynamic>>();
 
       placesModel.data?['places'] = places.where((element) {
         if (searchKey.isEnglishWord() == true) {

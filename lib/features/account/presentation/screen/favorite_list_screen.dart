@@ -15,10 +15,6 @@ import '../../../../core/widget/text/app_text.dart';
 import '../../../../router/app_router.dart';
 import '../../../activity/presentation/screen/sub_activity_details_screen.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 6/11/2024.
- */
-
 class FavoriteListScreen extends StatelessWidget {
   const FavoriteListScreen({super.key});
 

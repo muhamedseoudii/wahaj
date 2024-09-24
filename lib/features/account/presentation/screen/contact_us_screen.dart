@@ -4,7 +4,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:mo_wahaj_top/core/firebase/firebase_core/firestore_base_model.dart';
 import 'package:mo_wahaj_top/core/resource/cubit_status.dart';
-import 'package:mo_wahaj_top/core/widget/header/gradient_header.dart';
 import 'package:mo_wahaj_top/core/widget/loader/app_circular_progress_indicator.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
 import 'package:mo_wahaj_top/features/account/cubit/contact_us_cubit/contact_us_cubit.dart';
@@ -12,20 +11,11 @@ import 'package:mo_wahaj_top/features/account/presentation/widget/contact_us_car
 import 'package:mo_wahaj_top/features/account/presentation/widget/contact_us_form.dart';
 import 'package:mo_wahaj_top/features/account/presentation/widget/social_media_card.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/resource/app_icon.dart';
-import '../../../../core/resource/app_image.dart';
 import '../../../../core/resource/app_size.dart';
 import '../../../../core/widget/footer/main_app_footer.dart';
 import '../../../../core/widget/snack_bar/note_message.dart';
-import '../widget/gradient_info.dart';
-import '../widget/primary_info.dart';
-import '../widget/secondary_info.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/13/2024.
- */
 
 class ContactUsScreen extends StatelessWidget {
   const ContactUsScreen({super.key});

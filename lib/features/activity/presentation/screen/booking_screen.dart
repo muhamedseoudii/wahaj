@@ -1,23 +1,20 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:mo_wahaj_top/core/helper/language_helper.dart';
-
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/resource/app_size.dart';
 import '../../../../core/widget/footer/main_app_footer.dart';
 import '../../../../core/widget/header/gradient_header.dart';
-import '../../../account/presentation/widget/add_business_form.dart';
 import '../widget/booking_form.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 6/9/2024.
- */
 
 class BookingArgs {
   String subActivityArName;
   String subActivityEnName;
   String collectionName;
-  BookingArgs({required this.subActivityEnName,required this.subActivityArName, required this.collectionName});
+  BookingArgs(
+      {required this.subActivityEnName,
+      required this.subActivityArName,
+      required this.collectionName});
 }
 
 class BookingScreen extends StatelessWidget {
@@ -38,7 +35,8 @@ class BookingScreen extends StatelessWidget {
           children: [
             GradientHeader(
                 title: "bookingNow".tr(),
-                subTitle: "${"bookingNowIn".tr()} ${LanguageHelper.isEnglishAppLanguage()?args.subActivityEnName:args.subActivityArName}"),
+                subTitle:
+                    "${"bookingNowIn".tr()} ${LanguageHelper.isEnglishAppLanguage() ? args.subActivityEnName : args.subActivityArName}"),
             SizedBox(
               height: AppHeightSize.h7,
             ),

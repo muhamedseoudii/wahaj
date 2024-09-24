@@ -4,11 +4,7 @@ import 'package:mo_wahaj_top/core/firebase/helper/firebase_analytics_helper.dart
 import 'package:mo_wahaj_top/router/app_router.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 4/23/2024.
- */
-
-/// Updated by Eng.Muhammed Seoudii on 9/21/2024.
+/// Created by Eng.Muhammed Seoudii on 9/23/2024.
 
 final GlobalKey<NavigatorState> myAppKey = GlobalKey<NavigatorState>();
 

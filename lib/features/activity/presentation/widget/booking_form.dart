@@ -3,11 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mo_wahaj_top/core/helper/language_helper.dart';
 import 'package:mo_wahaj_top/core/helper/validtor_helper.dart';
-import 'package:mo_wahaj_top/features/account/cubit/add_business_cubit/add_business_cubit.dart';
 import 'package:mo_wahaj_top/features/activity/presentation/cubit/add_booking_cubit/add_booking_cubit.dart';
 import 'package:mo_wahaj_top/features/activity/presentation/cubit/add_booking_cubit/add_booking_state.dart';
 import 'package:mo_wahaj_top/features/auth/presentation/widget/phone_number_widget.dart';
-
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/resource/app_size.dart';
 import '../../../../core/resource/cubit_status.dart';
@@ -15,11 +13,6 @@ import '../../../../core/widget/loader/app_circular_progress_indicator.dart';
 import '../../../../core/widget/snack_bar/note_message.dart';
 import '../../../../core/widget/text/app_text.dart';
 import '../../../../core/widget/text_form_field/outline_text_form_field.dart';
-import '../../../../router/app_router.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 6/9/2024.
- */
 
 class BookingForm extends StatefulWidget {
   const BookingForm(
@@ -156,7 +149,7 @@ class _BookingFormState extends State<BookingForm> {
             listener: (context, state) {
               if (state.status == CubitStatus.error) {
                 NoteMessage.showErrorSnackBar(
-                    context: context, text: state.model.error??"");
+                    context: context, text: state.model.error ?? "");
               }
               if (state.status == CubitStatus.success) {
                 NoteMessage.showSuccessSnackBar(

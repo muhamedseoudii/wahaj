@@ -9,10 +9,6 @@ import 'dart:ui' as ui;
 import '../../../../../core/resource/app_size.dart';
 import '../../../../../core/widget/text/app_text.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/26/2024.
- */
-
 class ProfileWidget extends StatelessWidget {
   const ProfileWidget({super.key});
 

@@ -1,10 +1,4 @@
-/**
- * Created by Eng.Eyad AlSayed on 4/23/2024.
- */
-
-
-abstract class AppConst{
-
+abstract class AppConst {
   static const webSiteUrl = "https://wahaj.top/";
   static const arabicLanguageCode = "ar";
   static const englishLanguageCode = "en";

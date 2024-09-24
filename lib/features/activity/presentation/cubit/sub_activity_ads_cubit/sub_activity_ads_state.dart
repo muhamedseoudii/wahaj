@@ -1,5 +1,4 @@
 import 'package:equatable/equatable.dart';
-
 import '../../../../../core/firebase/firebase_core/firestore_base_model.dart';
 import '../../../../../core/resource/cubit_status.dart';
 
@@ -14,7 +13,7 @@ class SubActivityAdsState extends Equatable {
 
   factory SubActivityAdsState.initial() {
     return SubActivityAdsState(
-        model: FireStoreBaseModel(),   status: CubitStatus.initial);
+        model: FireStoreBaseModel(), status: CubitStatus.initial);
   }
 
   @override
@@ -30,6 +29,6 @@ class SubActivityAdsState extends Equatable {
 
   @override
   List<Object> get props {
-    return [ status, model];
+    return [status, model];
   }
 }

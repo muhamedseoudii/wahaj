@@ -1,7 +1,5 @@
 import 'dart:async';
-
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -81,7 +79,7 @@ class _ResendVerificationWidgetState extends State<ResendVerificationWidget> {
               listener: (context, state) {
                 if (state.status == CubitStatus.error) {
                   NoteMessage.showErrorSnackBar(
-                      context: context, text: state.model.error??"");
+                      context: context, text: state.model.error ?? "");
                 }
                 if (state.status == CubitStatus.success) {
                   _startTimer();

@@ -6,16 +6,10 @@ import 'package:mo_wahaj_top/core/widget/loader/app_circular_progress_indicator.
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
 import 'package:mo_wahaj_top/core/widget/text_form_field/outline_text_form_field.dart';
 import 'package:mo_wahaj_top/features/account/cubit/add_business_cubit/add_business_cubit.dart';
-import 'package:mo_wahaj_top/features/account/cubit/submit_message_cubit/submit_message_cubit.dart';
-
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/resource/app_size.dart';
 import '../../../../core/widget/snack_bar/note_message.dart';
 import '../../../auth/presentation/widget/phone_number_widget.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/14/2024.
- */
 
 class AddBusinessForm extends StatefulWidget {
   const AddBusinessForm({super.key});

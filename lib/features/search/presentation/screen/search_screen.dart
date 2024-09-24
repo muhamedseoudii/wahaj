@@ -11,10 +11,6 @@ import '../../../../core/widget/snack_bar/note_message.dart';
 import '../../../../core/widget/text/app_text.dart';
 import '../../../main/presentation/widget/home/search_text_field.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/28/2024.
- */
-
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});
 

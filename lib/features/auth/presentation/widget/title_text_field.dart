@@ -1,13 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mo_wahaj_top/core/resource/app_color.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/12/2024.
- */
 
 class TitleTextField extends StatefulWidget {
   TitleTextField(

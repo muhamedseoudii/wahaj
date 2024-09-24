@@ -3,12 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/12/2024.
- */
-
 class RememberMeCheckBox extends StatefulWidget {
-   const RememberMeCheckBox({super.key,required this.onChecked});
+  const RememberMeCheckBox({super.key, required this.onChecked});
   final Function(bool) onChecked;
 
   @override
@@ -16,7 +12,6 @@ class RememberMeCheckBox extends StatefulWidget {
 }
 
 class _RememberMeCheckBoxState extends State<RememberMeCheckBox> {
-
   bool isChecked = false;
 
   @override
@@ -40,7 +35,6 @@ class _RememberMeCheckBoxState extends State<RememberMeCheckBox> {
                 setState(() {
                   isChecked = value ?? false;
                   widget.onChecked(isChecked);
-
                 });
               },
             ),

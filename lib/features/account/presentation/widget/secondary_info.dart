@@ -1,16 +1,9 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-
 import '../../../../core/resource/app_color.dart';
-import '../../../../core/resource/app_icon.dart';
 import '../../../../core/resource/app_size.dart';
 import '../../../../core/widget/text/app_text.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
 
 class SecondaryInfo extends StatelessWidget {
   const SecondaryInfo(

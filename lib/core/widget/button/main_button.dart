@@ -1,12 +1,7 @@
 import 'package:flutter/material.dart';
-
 import '../../resource/app_color.dart';
 import '../../resource/app_size.dart';
 import '../text/app_text.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 7/7/2024.
- */
 
 class MainButton extends StatelessWidget {
   const MainButton({super.key, required this.onTap, required this.title});

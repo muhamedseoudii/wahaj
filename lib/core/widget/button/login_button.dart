@@ -1,6 +1,5 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mo_wahaj_top/core/storage/shared_pref/shared_preferences.dart';
 import 'package:mo_wahaj_top/core/widget/button/main_button.dart';
 import 'package:mo_wahaj_top/router/app_router.dart';
@@ -8,10 +7,6 @@ import 'package:mo_wahaj_top/router/app_router.dart';
 import '../../resource/app_color.dart';
 import '../../resource/app_size.dart';
 import '../text/app_text.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 7/7/2024.
- */
 
 class LoginButton extends StatelessWidget {
   const LoginButton({super.key, required this.onTap, required this.child});
@@ -70,9 +65,11 @@ void showLoginBottomSheet({required BuildContext context}) {
               SizedBox(
                 height: AppHeightSize.h4,
               ),
-              MainButton(onTap: () {
-                Navigator.pushNamed(context, RouteName.auth);
-              }, title: 'login'.tr()),
+              MainButton(
+                  onTap: () {
+                    Navigator.pushNamed(context, RouteName.auth);
+                  },
+                  title: 'login'.tr()),
               SizedBox(
                 height: AppHeightSize.h2,
               ),

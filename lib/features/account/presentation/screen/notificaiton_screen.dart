@@ -12,13 +12,8 @@ import 'package:mo_wahaj_top/features/account/cubit/notification_cubit/notificai
 import 'package:mo_wahaj_top/features/account/presentation/widget/notification_item.dart';
 import 'package:mo_wahaj_top/features/main/presentation/screen/main_screen.dart';
 import 'package:mo_wahaj_top/router/app_router.dart';
-
 import '../../../../core/resource/app_icon.dart';
 import '../../../../core/widget/snack_bar/note_message.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 6/9/2024.
- */
 
 class NotificationScreen extends StatelessWidget {
   const NotificationScreen({super.key});

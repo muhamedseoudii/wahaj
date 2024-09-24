@@ -11,10 +11,6 @@ import 'package:mo_wahaj_top/core/widget/snack_bar/note_message.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
 import 'package:mo_wahaj_top/features/main/cubit/discounts_cubit/offers_cubit.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/26/2024.
- */
-
 class OffersView extends StatelessWidget {
   const OffersView({super.key});
 
@@ -22,14 +18,16 @@ class OffersView extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocConsumer<OffersCubit, OffersState>(
       listener: (context, state) {
-        if(state.status == CubitStatus.error){
-          NoteMessage.showErrorSnackBar(context: context, text: state.model.error??"");
+        if (state.status == CubitStatus.error) {
+          NoteMessage.showErrorSnackBar(
+              context: context, text: state.model.error ?? "");
         }
       },
       builder: (context, state) {
-
-        if(state.status == CubitStatus.loading){
-          return Center(child: AppCircularProgressIndicator(),);
+        if (state.status == CubitStatus.loading) {
+          return Center(
+            child: AppCircularProgressIndicator(),
+          );
         }
         return Column(
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -53,8 +51,8 @@ class OffersView extends StatelessWidget {
               AppIcon.offerPrecentag,
               width: AppWidthSize.w20,
               height: AppWidthSize.w20,
-              colorFilter: const ColorFilter.mode(
-                  AppColor.purple, BlendMode.srcIn),
+              colorFilter:
+                  const ColorFilter.mode(AppColor.purple, BlendMode.srcIn),
             )
           ],
         );

@@ -8,7 +8,6 @@ import 'package:mo_wahaj_top/features/account/cubit/notification_cubit/notificai
 import 'package:mo_wahaj_top/features/account/presentation/screen/booking_history_screen.dart';
 import 'package:mo_wahaj_top/features/account/presentation/screen/favorite_list_screen.dart';
 import 'package:mo_wahaj_top/features/account/presentation/screen/notificaiton_screen.dart';
-import 'package:mo_wahaj_top/features/account/presentation/screen/places_details_screen.dart';
 import 'package:mo_wahaj_top/features/activity/presentation/cubit/add_booking_cubit/add_booking_cubit.dart';
 import 'package:mo_wahaj_top/features/activity/presentation/cubit/add_favorite_cubit/add_favorite_cubit.dart';
 import 'package:mo_wahaj_top/features/activity/presentation/screen/booking_screen.dart';
@@ -47,10 +46,6 @@ import '../features/account/cubit/privacy_policy_cubit/privacy_policy_cubit.dart
 import '../features/account/presentation/screen/about_us_screen.dart';
 import '../features/account/presentation/screen/add_business_screen.dart';
 import '../features/main/cubit/activities_cubit/activities_cubit.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 4/23/2024.
- */
 
 abstract class RouteName {
   static const init = splash;

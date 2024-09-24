@@ -1,20 +1,16 @@
 import 'dart:ui';
-
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 6/10/2024.
- */
 import 'dart:ui' as ui;
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 abstract class MapMarkerHelper {
- static Future<BitmapDescriptor> getMapMarkerFrom({required String path}) async {
+  static Future<BitmapDescriptor> getMapMarkerFrom(
+      {required String path}) async {
     return BitmapDescriptor.fromBytes(await getCustomMarkerFromSvg(path));
   }
 
- static  Future<Uint8List> getCustomMarkerFromSvg(String svgAssetPath) async {
+  static Future<Uint8List> getCustomMarkerFromSvg(String svgAssetPath) async {
     ByteData data = await rootBundle.load(svgAssetPath);
 
     // For SVG files, use the Flutter_svg package

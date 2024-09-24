@@ -2,15 +2,9 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'dart:ui' as ui;
-
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
-import 'package:mo_wahaj_top/core/helper/validtor_helper.dart';
 import 'package:mo_wahaj_top/core/resource/app_color.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/22/2024.
- */
 
 class PhoneNumberWidget extends StatelessWidget {
   PhoneNumberWidget(

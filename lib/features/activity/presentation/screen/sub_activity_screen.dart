@@ -18,15 +18,10 @@ import 'package:mo_wahaj_top/router/app_router.dart';
 
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/resource/app_size.dart';
-import '../../../../core/widget/image/app_cached_image.dart';
 import '../../../../core/widget/snack_bar/note_message.dart';
 import '../cubit/sub_activity_ads_cubit/sub_activity_ads_cubit.dart';
 import '../cubit/sub_activity_ads_cubit/sub_activity_ads_state.dart';
 import '../widget/sub_activity_list.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/28/2024.
- */
 
 class SubActivityArgs {
   String collectionName;

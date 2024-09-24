@@ -1,9 +1,5 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-/**
- * Created by Eng.Eyad AlSayed on 4/23/2024.
- */
 
 abstract class FlutterLocalNotification {
   static late InitializationSettings initializationSettings;

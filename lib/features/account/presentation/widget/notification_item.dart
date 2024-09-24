@@ -1,16 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:mo_wahaj_top/core/resource/app_color.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
-
 import '../../../../core/resource/app_icon.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 6/15/2024.
- */
 
 class NotificationItem extends StatelessWidget {
   const NotificationItem(

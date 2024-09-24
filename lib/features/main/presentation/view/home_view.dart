@@ -17,8 +17,6 @@ import '../widget/home/activity_grid_list.dart';
 import '../widget/home/most_banner_widget.dart';
 import '../widget/home/other_activity_list.dart';
 
-/// Created by Eng.Eyad AlSayed on 5/11/2024.
-
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
 

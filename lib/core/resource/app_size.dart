@@ -1,9 +1,5 @@
 import 'package:responsive_sizer/responsive_sizer.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
-
 abstract class AppWidthSize {
   static final double w05 = 05.w;
   static final double w1 = 1.w;

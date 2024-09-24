@@ -2,18 +2,13 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/resource/app_icon.dart';
 import '../../../../core/resource/app_size.dart';
 import '../../../../core/widget/text/app_text.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
-
 class PrimaryInfo extends StatelessWidget {
-  const PrimaryInfo({super.key,required this.info});
+  const PrimaryInfo({super.key, required this.info});
 
   final String info;
 
@@ -29,7 +24,9 @@ class PrimaryInfo extends StatelessWidget {
           borderRadius: BorderRadius.circular(10),
           boxShadow: [
             BoxShadow(
-                color: AppColor.lightGrey, blurRadius: 25, offset: const Offset(1, 9))
+                color: AppColor.lightGrey,
+                blurRadius: 25,
+                offset: const Offset(1, 9))
           ]),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -45,7 +42,8 @@ class PrimaryInfo extends StatelessWidget {
               AppIcon.info,
               width: 32.px,
               height: 32.px,
-              colorFilter: ColorFilter.mode(AppColor.white, BlendMode.srcIn),
+              colorFilter:
+                  const ColorFilter.mode(AppColor.white, BlendMode.srcIn),
             ),
           ),
           SizedBox(

@@ -1,17 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:mo_wahaj_top/core/helper/language_helper.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/core/widget/image/app_cached_image.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
-
 import '../../../../../core/firebase/firebase_core/firestore_method.dart';
-import '../../../../../core/resource/app_color.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
 
 class ActivityItem extends StatefulWidget {
   const ActivityItem({super.key, required this.data});

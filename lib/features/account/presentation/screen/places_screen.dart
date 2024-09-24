@@ -11,13 +11,10 @@ import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
 import 'package:mo_wahaj_top/features/account/cubit/places_cubit/places_cubit.dart';
 import 'package:mo_wahaj_top/features/account/presentation/screen/places_details_screen.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/resource/app_size.dart';
 import '../../../../core/widget/image/app_cached_image.dart';
 import '../../../../core/widget/snack_bar/note_message.dart';
-
-/// Created by Eng.Eyad AlSayed on 5/12/2024.
 
 class PlacesScreen extends StatefulWidget {
   const PlacesScreen({super.key});

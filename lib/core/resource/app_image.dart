@@ -1,7 +1,3 @@
-/**
- * Created by Eng.Eyad AlSayed on 4/23/2024.
- */
-
 abstract class AppImage {
   static const _basePath = "assets/images";
 

@@ -2,7 +2,6 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:mo_wahaj_top/core/resource/app_color.dart';
 import 'package:mo_wahaj_top/core/resource/app_icon.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/core/storage/shared_pref/shared_preferences.dart';
@@ -11,13 +10,7 @@ import 'package:mo_wahaj_top/features/main/presentation/widget/account/login_wid
 import 'package:mo_wahaj_top/features/main/presentation/widget/account/profile_widget.dart';
 import 'package:mo_wahaj_top/features/main/presentation/widget/account/secondary_account_list.dart';
 import 'package:mo_wahaj_top/router/app_router.dart';
-
 import '../widget/account/account_item.dart';
-import '../widget/account/basic_account_list.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/26/2024.
- */
 
 class AccountView extends StatefulWidget {
   const AccountView({super.key});

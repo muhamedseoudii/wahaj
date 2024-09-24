@@ -1,15 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
 import 'package:mo_wahaj_top/router/app_router.dart';
-
 import '../../../../core/resource/app_color.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
 
 class GradientInfo extends StatelessWidget {
   const GradientInfo({super.key});
@@ -50,7 +44,6 @@ class GradientInfo extends StatelessWidget {
             fontColor: AppColor.white,
             fontWeight: FontWeight.w500,
             textAlign: TextAlign.center,
-
           ),
           SizedBox(
             height: AppHeightSize.h2,

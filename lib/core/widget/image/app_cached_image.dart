@@ -1,13 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:mo_wahaj_top/core/resource/app_color.dart';
-import 'package:mo_wahaj_top/core/resource/app_size.dart';
-
 import '../loader/app_circular_progress_indicator.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/14/2024.
- */
 
 class AppCachedImage extends StatelessWidget {
   const AppCachedImage({super.key, required this.imageUrl});

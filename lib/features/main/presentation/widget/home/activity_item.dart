@@ -1,15 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:mo_wahaj_top/app/wahaj_app.dart';
-
 import '../../../../../core/helper/language_helper.dart';
 import '../../../../../core/resource/app_color.dart';
 import '../../../../../core/resource/app_size.dart';
 import '../../../../../core/widget/image/app_cached_image.dart';
 import '../../../../../core/widget/text/app_text.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/28/2024.
- */
 
 class ActivityItem extends StatelessWidget {
   const ActivityItem(

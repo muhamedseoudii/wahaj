@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mo_wahaj_top/core/firebase/firebase_core/firestore_base_model.dart';
 import 'package:mo_wahaj_top/core/firebase/firebase_core/firestore_method.dart';
 import 'package:mo_wahaj_top/core/storage/shared_pref/shared_preferences.dart';
-
 import '../../../../../core/firebase/firebase_core/firestore_status_code.dart';
 import '../../../../../core/resource/cubit_status.dart';
 
@@ -24,7 +23,7 @@ class LoginCubit extends Cubit<LoginState> {
       AppSharedPreferences.setUserName(userName: body['email'] ?? "");
       emit(state.copyWith(status: CubitStatus.success, model: model));
     } else {
-      emit(state.copyWith(status: CubitStatus.error,model: model));
+      emit(state.copyWith(status: CubitStatus.error, model: model));
     }
   }
 }

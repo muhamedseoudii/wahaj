@@ -1,18 +1,9 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
-import 'package:mo_wahaj_top/features/activity/presentation/cubit/sub_activity_cubit/sub_activity_cubit.dart';
 import 'package:mo_wahaj_top/features/activity/presentation/widget/sub_activity_item.dart';
-
-import '../../../../core/helper/language_helper.dart';
 import '../../../../core/resource/app_size.dart';
 import '../../../../router/app_router.dart';
 import '../screen/sub_activity_details_screen.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 6/22/2024.
- */
 
 class SubActivityList extends StatelessWidget {
   const SubActivityList(

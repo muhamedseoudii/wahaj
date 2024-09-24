@@ -1,8 +1,5 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 4/24/2024.
- */
 abstract class AppSharedPreferencesKey {
   static const String firstAppOpen = "first-app-open";
   static const String login = "login";
@@ -52,6 +49,7 @@ abstract class AppSharedPreferences {
   }
 
   static void setAppLanguage({required String languageCode}) {
-    _sharedPreferences.setString(AppSharedPreferencesKey.language, languageCode);
+    _sharedPreferences.setString(
+        AppSharedPreferencesKey.language, languageCode);
   }
 }

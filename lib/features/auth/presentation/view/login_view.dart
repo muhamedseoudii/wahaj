@@ -14,10 +14,6 @@ import 'package:mo_wahaj_top/router/app_router.dart';
 import '../../../../core/widget/snack_bar/note_message.dart';
 import '../widget/dialog/signup_dialog.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/12/2024.
- */
-
 class LoginView extends StatefulWidget {
   const LoginView({super.key});
 
@@ -78,7 +74,6 @@ class _LoginViewState extends State<LoginView> {
             SizedBox(
               height: AppHeightSize.h1point8,
             ),
-
             SizedBox(
               height: AppHeightSize.h1point8,
             ),
@@ -101,7 +96,7 @@ class _LoginViewState extends State<LoginView> {
               listener: (context, state) {
                 if (state.status == CubitStatus.error) {
                   NoteMessage.showErrorSnackBar(
-                      context: context, text: state.model.error??"");
+                      context: context, text: state.model.error ?? "");
                 }
                 if (state.status == CubitStatus.success) {
                   Navigator.of(context).pushNamedAndRemoveUntil(

@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
 import 'dart:ui' as ui;
-
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
-
 import '../../resource/app_color.dart';
 import '../../resource/app_icon.dart';
 import '../text/app_text.dart';

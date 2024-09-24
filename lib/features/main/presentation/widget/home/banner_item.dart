@@ -1,18 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:mo_wahaj_top/core/widget/button/login_button.dart';
 import 'package:mo_wahaj_top/features/web_view/presentation/screen/web_view_screen.dart';
-
 import '../../../../../core/firebase/firebase_core/firestore_method.dart';
-import '../../../../../core/resource/app_color.dart';
-import '../../../../../core/resource/app_size.dart';
 import '../../../../../core/widget/image/app_cached_image.dart';
 import '../../../../../router/app_router.dart';
 import '../../../../activity/presentation/screen/sub_activity_details_screen.dart';
 import '../../../../activity/presentation/screen/sub_activity_screen.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
 
 class BannerItem extends StatefulWidget {
   const BannerItem(

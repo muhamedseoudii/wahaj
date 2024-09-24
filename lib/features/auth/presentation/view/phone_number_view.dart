@@ -1,5 +1,4 @@
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
@@ -11,18 +10,19 @@ import 'package:mo_wahaj_top/router/app_router.dart';
 
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/widget/snack_bar/note_message.dart';
-import '../cubit/login_cubit/login_cubit.dart';
 import '../screen/verification_code_screen.dart';
 import '../widget/phone_number_widget.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/27/2024.
- */
+class PhoneNumberView extends StatefulWidget {
+  const PhoneNumberView({super.key});
 
-class PhoneNumberView extends StatelessWidget {
-  PhoneNumberView({super.key});
+  @override
+  State<PhoneNumberView> createState() => _PhoneNumberViewState();
+}
 
+class _PhoneNumberViewState extends State<PhoneNumberView> {
   String phoneNumber = '';
+
   GlobalKey<FormState> formKey = GlobalKey<FormState>();
 
   @override
@@ -59,7 +59,7 @@ class PhoneNumberView extends StatelessWidget {
               listener: (context, state) {
                 if (state.status == CubitStatus.error) {
                   NoteMessage.showErrorSnackBar(
-                      context: context, text: state.model.error??"");
+                      context: context, text: state.model.error ?? "");
                 }
                 if (state.status == CubitStatus.success) {
                   Navigator.of(context).pushNamed(RouteName.verifyCode,

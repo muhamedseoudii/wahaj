@@ -11,10 +11,6 @@ import '../../firebase/firebase_core/firestore_base_model.dart';
 import '../../resource/app_icon.dart';
 import '../../resource/app_image.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
-
 class ContactUsFooter extends StatelessWidget {
   const ContactUsFooter({super.key});
 

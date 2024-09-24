@@ -1,5 +1,4 @@
 import 'package:equatable/equatable.dart';
-
 import '../../../../../core/firebase/firebase_core/firestore_base_model.dart';
 import '../../../../../core/resource/cubit_status.dart';
 
@@ -30,6 +29,6 @@ class AddBookingState extends Equatable {
 
   @override
   List<Object> get props {
-    return [ status, model];
+    return [status, model];
   }
 }

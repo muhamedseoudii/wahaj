@@ -1,5 +1,4 @@
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
@@ -11,10 +10,6 @@ import 'package:mo_wahaj_top/features/auth/presentation/widget/title_text_field.
 
 import '../../../../../core/resource/app_color.dart';
 import '../../../../../core/widget/snack_bar/note_message.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/14/2024.
- */
 
 void showForgotPasswordBottomSheet({required BuildContext context}) {
   TextEditingController controller = TextEditingController();
@@ -69,7 +64,7 @@ void showForgotPasswordBottomSheet({required BuildContext context}) {
                   listener: (context, state) {
                     if (state.status == CubitStatus.error) {
                       NoteMessage.showErrorSnackBar(
-                          context: context, text: state.model.error??"");
+                          context: context, text: state.model.error ?? "");
                     }
                     if (state.status == CubitStatus.success) {
                       Navigator.of(context).pop();

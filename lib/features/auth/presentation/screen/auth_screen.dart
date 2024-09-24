@@ -1,25 +1,11 @@
-import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:mo_wahaj_top/core/helper/language_helper.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
-import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
-import 'package:mo_wahaj_top/features/auth/presentation/view/phone_number_view.dart';
-import 'package:mo_wahaj_top/features/auth/presentation/widget/dialog/signup_dialog.dart';
 import 'package:mo_wahaj_top/router/app_router.dart';
-import 'package:responsive_sizer/responsive_sizer.dart';
-
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/resource/app_icon.dart';
 import '../../../../core/resource/app_image.dart';
 import '../view/login_view.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/12/2024.
- */
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});

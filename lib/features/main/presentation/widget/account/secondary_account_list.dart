@@ -15,10 +15,6 @@ import '../../../../../core/widget/snack_bar/note_message.dart';
 import '../../../../../router/app_router.dart';
 import '../../../cubit/delete_user_cubit/delete_user_cubit.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/26/2024.
- */
-
 class SecondaryAccountList extends StatelessWidget {
   const SecondaryAccountList({super.key, required this.onChangeLanguage});
 

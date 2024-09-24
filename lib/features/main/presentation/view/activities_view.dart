@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
@@ -8,13 +7,8 @@ import 'package:mo_wahaj_top/core/widget/loader/app_circular_progress_indicator.
 import 'package:mo_wahaj_top/features/activity/presentation/screen/sub_activity_screen.dart';
 import 'package:mo_wahaj_top/features/main/cubit/activities_cubit/activities_cubit.dart';
 import 'package:mo_wahaj_top/router/app_router.dart';
-
 import '../../../../core/widget/snack_bar/note_message.dart';
 import '../widget/home/activity_item.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
 
 class ActivitiesView extends StatelessWidget {
   const ActivitiesView({super.key});

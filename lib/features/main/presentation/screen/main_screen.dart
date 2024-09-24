@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_exit_app/flutter_exit_app.dart';
@@ -17,9 +16,6 @@ import 'package:responsive_sizer/responsive_sizer.dart';
 import '../../../../core/widget/app_bar/main_app_bar.dart';
 import '../view/activities_view.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
 class MainArgs {
   int openIndex;
 

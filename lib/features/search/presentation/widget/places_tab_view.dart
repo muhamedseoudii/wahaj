@@ -1,16 +1,10 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:mo_wahaj_top/core/helper/language_helper.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/router/app_router.dart';
-
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/widget/image/app_cached_image.dart';
 import '../../../../core/widget/text/app_text.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/28/2024.
- */
 
 class PlacesTabView extends StatelessWidget {
   const PlacesTabView({super.key, required this.places});

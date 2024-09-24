@@ -3,10 +3,6 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../firebase/firebase_core/firestore_method.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 6/3/2024.
- */
-
 abstract class UrlLauncherHelper {
   static Future<void> makeCall(
       {required String phoneNumber,

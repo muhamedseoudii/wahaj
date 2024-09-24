@@ -7,10 +7,6 @@ import '../../../../core/resource/app_color.dart';
 import '../../../../core/resource/app_const.dart';
 import '../../../../core/resource/app_icon.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 4/23/2024.
- */
-
 class WebViewArgs {
   String url;
 

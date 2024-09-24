@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:mo_wahaj_top/core/helper/language_helper.dart';
 import 'package:mo_wahaj_top/core/widget/button/login_button.dart';
 import 'package:mo_wahaj_top/router/app_router.dart';
-
 import '../../../../../core/firebase/firebase_core/firestore_method.dart';
 import '../../../../../core/resource/app_color.dart';
 import '../../../../../core/resource/app_size.dart';
@@ -11,10 +10,6 @@ import '../../../../../core/widget/text/app_text.dart';
 import '../../../../activity/presentation/screen/sub_activity_details_screen.dart';
 import '../../../../activity/presentation/screen/sub_activity_screen.dart';
 import '../../../../web_view/presentation/screen/web_view_screen.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/28/2024.
- */
 
 class AdsList extends StatelessWidget {
   const AdsList({super.key, required this.adData});

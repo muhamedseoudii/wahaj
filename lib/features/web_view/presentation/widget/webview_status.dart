@@ -1,16 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
-import 'package:responsive_sizer/responsive_sizer.dart';
-
 import '../../../../core/resource/app_color.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 4/23/2024.
- */
-
 class WebViewStatus extends StatelessWidget {
-  WebViewStatus({super.key, required this.pageStatus});
+  const WebViewStatus({super.key, required this.pageStatus});
 
   final int pageStatus;
   @override

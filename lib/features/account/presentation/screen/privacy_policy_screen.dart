@@ -1,20 +1,14 @@
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mo_wahaj_top/core/resource/cubit_status.dart';
 import 'package:mo_wahaj_top/core/widget/loader/app_circular_progress_indicator.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
 import 'package:mo_wahaj_top/features/account/cubit/privacy_policy_cubit/privacy_policy_cubit.dart';
-
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/resource/app_size.dart';
 import '../../../../core/widget/footer/main_app_footer.dart';
 import '../../../../core/widget/snack_bar/note_message.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/14/2024.
- */
 
 class PrivacyPolicyScreen extends StatelessWidget {
   const PrivacyPolicyScreen({super.key});
@@ -29,8 +23,9 @@ class PrivacyPolicyScreen extends StatelessWidget {
       backgroundColor: AppColor.background,
       body: BlocConsumer<PrivacyPolicyCubit, PrivacyPolicyState>(
         listener: (context, state) {
-          if(state.status == CubitStatus.error){
-            NoteMessage.showErrorSnackBar(context: context, text: state.model.error??"");
+          if (state.status == CubitStatus.error) {
+            NoteMessage.showErrorSnackBar(
+                context: context, text: state.model.error ?? "");
           }
         },
         builder: (context, state) {

@@ -1,12 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 import '../../resource/app_color.dart';
 import '../../resource/app_size.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/14/2024.
- */
 
 class OutlineTextFormField extends StatefulWidget {
   OutlineTextFormField({
@@ -46,7 +41,8 @@ class _OutlineTextFormFieldState extends State<OutlineTextFormField> {
     return Form(
       key: widget.formKey,
       child: TextFormField(
-        obscureText: widget.isPasswordField == true ? !widget.passwordVisible : false,
+        obscureText:
+            widget.isPasswordField == true ? !widget.passwordVisible : false,
         keyboardType: widget.textInputType,
         textAlign: widget.textAlign ?? TextAlign.start,
         textAlignVertical: widget.textAlignVertical,
@@ -82,7 +78,6 @@ class _OutlineTextFormFieldState extends State<OutlineTextFormField> {
             ),
             enabledBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10),
-
               borderSide:
                   BorderSide(color: widget.enabledBorderColor, width: 1),
             ),

@@ -1,11 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mo_wahaj_top/core/helper/language_helper.dart';
-
 import '../../../../../core/resource/app_color.dart';
 import '../../../../../core/resource/app_size.dart';
 import '../../../../../core/resource/cubit_status.dart';
@@ -15,10 +13,6 @@ import '../../../../../core/widget/text/app_text.dart';
 import '../../../../../router/app_router.dart';
 import '../../cubit/sign_cubit/sign_cubit.dart';
 import '../title_text_field.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/27/2024.
- */
 
 void showSignUpDialog({required BuildContext context}) {
   List<TextEditingController> controllers =
@@ -122,7 +116,7 @@ void showSignUpDialog({required BuildContext context}) {
               listener: (context, state) {
                 if (state.status == CubitStatus.error) {
                   NoteMessage.showErrorSnackBar(
-                      context: context, text: state.model.error??"");
+                      context: context, text: state.model.error ?? "");
                 }
                 if (state.status == CubitStatus.success) {
                   Navigator.of(context).pushNamedAndRemoveUntil(

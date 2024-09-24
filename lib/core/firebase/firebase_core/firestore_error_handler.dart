@@ -4,10 +4,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/services.dart';
 import 'firestore_base_model.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 6/22/2024.
- */
-
 abstract class FireStoreGetMethodErrorHandler {
   static Future<FireStoreBaseModel> handleError(
       {required Future<DocumentSnapshot<Map<String, dynamic>>> Function()
@@ -29,7 +25,6 @@ abstract class FireStoreGetMethodErrorHandler {
       model.error = handleGeneralExceptionError(exception: e);
       return model;
     }
-
 
     model.code = 0;
     model.data = doc.data();

@@ -4,16 +4,11 @@ import 'package:mo_wahaj_top/core/helper/language_helper.dart';
 import 'package:mo_wahaj_top/core/resource/app_icon.dart';
 import 'package:mo_wahaj_top/core/widget/button/login_button.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-
 import '../../../../core/firebase/firebase_core/firestore_method.dart';
 import '../../../../core/resource/app_color.dart';
 import '../../../../core/resource/app_size.dart';
 import '../../../../core/widget/image/app_cached_image.dart';
 import '../../../../core/widget/text/app_text.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/28/2024.
- */
 
 class SubActivityItem extends StatefulWidget {
   const SubActivityItem(

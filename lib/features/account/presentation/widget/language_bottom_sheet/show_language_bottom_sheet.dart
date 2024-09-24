@@ -4,12 +4,7 @@ import 'package:mo_wahaj_top/core/resource/app_color.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/core/storage/shared_pref/shared_preferences.dart';
 import 'package:mo_wahaj_top/core/widget/text/app_text.dart';
-
 import '../../../../../core/resource/app_const.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 6/9/2024.
- */
 
 void showLanguageBottomSheet(
     {required BuildContext context, required Function() onChangeLanguage}) {
@@ -57,7 +52,7 @@ void showLanguageBottomSheet(
             RadioListTile(
               activeColor: AppColor.purple,
               fillColor:
-                  MaterialStateColor.resolveWith((states) => AppColor.purple),
+                  WidgetStateColor.resolveWith((states) => AppColor.purple),
               visualDensity: const VisualDensity(
                   horizontal: VisualDensity.minimumDensity,
                   vertical: VisualDensity.minimumDensity),

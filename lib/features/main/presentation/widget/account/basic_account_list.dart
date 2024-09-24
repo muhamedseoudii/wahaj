@@ -6,12 +6,7 @@ import 'package:mo_wahaj_top/core/resource/app_icon.dart';
 import 'package:mo_wahaj_top/core/resource/app_size.dart';
 import 'package:mo_wahaj_top/features/main/presentation/widget/account/account_item.dart';
 import 'package:mo_wahaj_top/router/app_router.dart';
-
 import '../../../../../core/storage/shared_pref/shared_preferences.dart';
-
-/**
- * Created by Eng.Eyad AlSayed on 5/26/2024.
- */
 
 class BasicAccountList extends StatefulWidget {
   const BasicAccountList({super.key});

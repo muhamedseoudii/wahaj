@@ -2,10 +2,6 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 4/23/2024.
- */
-
 abstract class AppColor {
   static const Color purple = Color(0xff5605ba);
   static const Color darkPurple = Color(0xff40038f);

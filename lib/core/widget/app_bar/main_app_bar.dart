@@ -10,10 +10,6 @@ import 'package:mo_wahaj_top/core/storage/shared_pref/shared_preferences.dart';
 import 'package:mo_wahaj_top/router/app_router.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
-/**
- * Created by Eng.Eyad AlSayed on 5/11/2024.
- */
-
 class MainAppBar extends StatelessWidget {
   const MainAppBar({super.key});
 
